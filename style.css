@@ -1,0 +1,84 @@
+body{
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.lO3VdBJ2Gm0HzYshD_fTuwHaFj&pid=Api&P=0&w=242&h=181");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    font-family: fantasy;
+    font-size: large;
+    color: aquamarine;
+    background-color: brown;
+    text-decoration: underline;
+    text-align: center;
+}
+a:hover{
+    font-family: cursive;
+    font-size: medium;
+    color: blueviolet;
+    background-color: burlywood;
+    text-decoration: none;
+    text-align: center;
+}
+p{
+    font-family: sans-serif;
+    font-size: small;
+    color: palevioletred;
+}
+p:hover{
+    font-family: serif;
+    font-size: smaller;
+    color: hotpink;
+}
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20%;
+    border-style: double;
+    border-color: indianred;
+    border-width: 5px;
+    opacity: 1;
+    padding: 10px;
+}
+img:hover{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border-style: ridge;
+    border-color: tomato;
+    border-width: 8px;
+    opacity: 0.5;
+    padding: 20px;
+}
+hr{
+    border-color: teal;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 4px;
+}
+/*
+h1{
+    font-family: monospace;
+    color: teal;
+    font-size: x-large;
+    text-decoration: violet;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 2px;
+    text-decoration-line: underline;
+}
+*/
+h1.splitting {
+    color: saturate(lighten(#004cff,55%),60%); 
+    .char {
+      transition: transform .3s cubic-bezier(.3, 0, .3, 1), opacity .3s linear;
+      transition-delay: calc( 20ms * var(--char-index) );
+}
+&[data-scroll="out"] .char {
+        opacity: 0.1;
+        transform: translateY( .25em );
+}
+}
+.page {
+        max-width: 30em;
+        margin: auto;
+        overflow: hidden;
+      }
